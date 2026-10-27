@@ -1,0 +1,97 @@
+/* =====================================================
+   styles.css — CINE AURORA
+   Completa los estilos según el mockup adjunto
+   ===================================================== */
+
+/* Reset base */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Tu código va aquí */
+body {
+  font-size: 1.6rem;
+}
+
+.navbar{
+  display: flex;
+  justify-content:space-between ;
+  background-color: #ffffff;
+  padding-top: 1.6rem;
+  align-items: center;
+}
+
+.logo{
+  font-weight: bold;
+  color: #16161d;
+  padding: 1.6rem;
+}
+
+.nav-items{
+  display: flex;
+  padding: 0rem 2.8rem;
+  gap: 1.4rem;
+  list-style: none;
+}
+
+.nav-items a{
+  text-decoration: none;
+  color: #555555;
+}
+
+.hero{
+  background-color: #0d0d14;
+  padding:6.4rem 0rem;
+}
+
+.hero-items{
+  justify-content: left;
+  margin: 4rem;
+}
+
+.blanco{
+  color: #ffffff;
+}
+
+.gris{
+  color: #8a8a99;
+}
+
+.boton{
+  background-color: #b8860b;
+  border-radius: 0.6rem;
+  padding:1rem 1.4rem;
+  text-decoration: none;
+}
+
+.amarillo{
+  color: #b8860b;
+}
+
+.cartelera{
+  background-color: #ffffff;
+  padding: 0rem 4.8rem;
+  justify-content: center;
+}
+
+.cartelera img{
+  height: 20rem;
+}
+
+.cartelera-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
