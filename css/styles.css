@@ -24,6 +24,8 @@ body {
   font-size: 1.6rem;
 }
 
+
+/*HEADER*/
 .navbar{
   display: flex;
   justify-content:space-between ;
@@ -36,10 +38,6 @@ body {
 .logo{
   font-weight: bold;
   padding: 1.6rem;
-}
-
-.ngro{
-  color: #16161d;
 }
 
 .nav-items{
@@ -64,13 +62,43 @@ body {
   margin: 4rem;
 }
 
+.parrafo{
+  font-size: 1.6rem;
+  margin-bottom: 2.8rem;
+}
+
+.btn{
+  background-color: #b8860b;
+  border-radius: 0.6rem;
+  font-size: 1.4rem;
+  padding:1rem 2.4rem;
+  text-decoration: none;
+}
+
+
+/*TITULOS*/
 .titulo{
   font-size: 4rem;
 }
 
-.parrafo{
-  font-size: 1.6rem;
+.titulo2{
+  font-size: 2.6rem;
   margin-bottom: 2.8rem;
+}
+
+.titulo3{
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.titulo4{
+  font-size: 1.6rem;
+}
+
+
+/*colores*/
+.ngro{
+  color: #16161d;
 }
 
 .blanco{
@@ -85,27 +113,16 @@ body {
   color: #555555;
 }
 
-.btn{
-  background-color: #b8860b;
-  border-radius: 0.6rem;
-  font-size: 1.4rem;
-  padding:1rem 2.4rem;
-  text-decoration: none;
-}
-
 .amarillo{
   color: #b8860b;
 }
 
+
+/*CARTELERA*/
 .cartelera{
   background-color: #ffffff;
   padding: 0rem 4.8rem;
   justify-content: center;
-}
-
-.titulo2{
-  font-size: 2.6rem;
-  margin-bottom: 2.8rem;
 }
 
 .pelicula{
@@ -132,11 +149,6 @@ body {
   padding: 1.6rem;
 }
 
-.tit-pelicula{
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-}
-
 .genero{
   font-size: 1.4rem;
   margin-bottom: 1rem;
@@ -145,4 +157,38 @@ body {
 .precio{
   font-size: 1.6rem;
   font-weight: bold;
+}
+
+
+/*FOOTER*/
+.footer{
+  background-color: #14141c;
+  padding: 3.6rem 3rem 2rem;
+}
+
+.footer-items{
+  display: flex;
+  justify-content:space-between;
+  padding-bottom: 2rem;
+  align-items: flex-start;  
+}
+
+.marca{
+  flex: 4;
+}
+
+.foot-parrafo{
+  font-size: 1.6rem;
+}
+
+.lista{
+  font-size: 1.6rem;
+  list-style: none;
+  padding: 0;
+}
+
+.copyright{
+  border-top: 0.1rem solid #262633;
+  font-size: 1.3rem;
+  text-align: center;
 }
