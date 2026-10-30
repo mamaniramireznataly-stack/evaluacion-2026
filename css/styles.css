@@ -185,7 +185,6 @@ body {
   border-bottom: 0.1rem solid #dcdce3;
   padding: 1.2rem 0;
   align-items: center;
-  gap: 1rem;
 }
 
 .vistas-items img{
@@ -194,10 +193,16 @@ body {
   border-radius: 0.8rem;
 }
 
-.items-precios{
-  padding: 1.6rem;
+.tit-vistas{
+  padding: 0 1rem;
 }
 
+.vistas-precio{
+  margin-left: auto;
+  padding: 1.6rem ;
+  font-weight: bolder;
+  color: #b8860b;
+}
 
 
 
